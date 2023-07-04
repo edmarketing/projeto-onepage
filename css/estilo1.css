@@ -7,8 +7,6 @@ body{
 
 #imgpos {
     position:relative;
-   /* left:0%;
-    top: 0%;  */ 
     margin: 0px;
 }
 
@@ -31,7 +29,7 @@ header{
 nav{
     padding: 10px;
     font-size: 25px;
-    color:#530f2e;
+    
     text-transform: uppercase;
   /*
     background-color:  #063d1e;  
