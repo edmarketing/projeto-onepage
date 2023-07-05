@@ -26,3 +26,8 @@ nav a{
 footer{
    text-align: center;
 }
+
+footer li{ 
+    text-align: left;
+ }
+ 
