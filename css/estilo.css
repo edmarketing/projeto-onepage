@@ -23,6 +23,11 @@ nav a{
     color:white;
  }
 
+ nav a:hover{
+    color: red;
+  }
+  
+
 footer{
    text-align: center;
 }
