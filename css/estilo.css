@@ -6,13 +6,8 @@ body{
     margin: 0;
 }
 
-#imgpos {
-    position:relative;
-    margin: 0px;
-}
-
 nav{
-    padding: 2px;
+    padding: 2px 2px 0 2px;
     font-size: 20px; 
     background-color:  black;
     word-spacing: 20px;
@@ -20,19 +15,71 @@ nav{
 }
 
 nav a{
-    color:white;
+    color:white;    
  }
 
  nav a:hover{
     color: red;
   }
   
+section#sobre{
+    background-color: rgb(209, 229, 178);
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px;
+  }
 
-footer{
-   text-align: center;
+section#sobre>h2{
+  font-size: 3em;
+  color: rgb(216, 230, 214);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+}
+  
+.texto{
+    font-size: 30px;
+  }
+  
+.texto1{
+    font-size: 25px;
+  }
+
+  a{
+    font-size: 1.5em;
+  }
+
+section#serviços{
+    background-color: rgb(209, 229, 178);
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;  
+  }
+
+  section#portfolio { 
+    border: 5px solid #f00;
+    padding: 10px;
+  }
+
+  .centro{
+    text-align: center;
+  }
+  
+section#map{
+  background-color:brown ;
 }
 
-footer li{ 
+section#falecomigo{
+    border: 5px solid black;
+    padding-left: 10px;  
+}
+
+section#falecomigo>h2{
+  text-align: center;
+}
+
+/*footer>div{ 
     text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
  }
- 
+*/ 
