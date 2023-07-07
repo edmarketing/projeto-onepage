@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body{
+    background-color: rgb(209, 229, 178);
     font-family: "Open Sans";
     padding: 0;
     margin: 0;
@@ -24,10 +25,8 @@ nav a{
   
 section#sobre{
     background-color: rgb(209, 229, 178);
-    width: 100%;
-    margin: auto;
-    margin-top: 0px;
-    padding: 10px;
+    width: 100%;    
+    margin:auto;  
   }
 
 section#sobre>h2{
@@ -44,15 +43,15 @@ section#sobre>h2{
     font-size: 25px;
   }
 
-  a{
+  section#sobre>a{
     font-size: 1.5em;
   }
 
-section#serviços{
+section#servico{
     background-color: rgb(209, 229, 178);
     width: 100%;
-     margin: auto;
-    margin-top: 0px;      
+    margin: auto;
+        
   }
 
   section#portfolio { 
