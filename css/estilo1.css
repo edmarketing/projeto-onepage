@@ -7,16 +7,21 @@ body{
     margin: 0;
 }
 
+header{
+  height: 5px;
+}
+
 nav{
-    padding: 2px 2px 0 2px;
+    padding: 2px 8px 0 2px;
     font-size: 20px; 
-    background-color:  black;
+    /*background-color:  black; */
     word-spacing: 20px;
-    text-align: right; 
+    text-align: right;
+    text-transform: uppercase; 
 }
 
 nav a{
-    color:white;    
+    color:rgb(246, 239, 239);    
  }
 
  nav a:hover{
