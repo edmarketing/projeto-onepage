@@ -105,22 +105,51 @@ figure.figura2 figcaption{
   box-sizing: border-box;    
 }
 
-section#map{
-  padding-bottom: 200px;
+section#map h3{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 section#falecomigo{
     border: 5px solid black;
-    padding-left: 10px;  
+    width: 40%;
+    height: 250px;
+    margin: 0 auto;  
+}
+
+section#falecomigo p{
+    font-weight: bold;
+}
+
+.email{   
+   position: relative;
+   left: 300px;
+   bottom: 65px;
 }
 
 section#falecomigo>h2{
   text-align: center;
 }
+.face{   
+  position: relative;
+  left: 200px;
+  bottom: 65px;
+}
+.insta{   
+  position: relative;
+  left: 270px;
+  bottom: 105px;
+}
 
-  .rodape p{ 
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 10px;
- }
+
+
+section#falecomigo ul#insta{
+  padding-bottom: 170px;
+}
+
+
+  footer#rodape p{ 
+    text-align: center;  
+  }
 
