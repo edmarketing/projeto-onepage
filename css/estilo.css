@@ -29,6 +29,14 @@ section#sobre{
     margin:auto;  
   }
 
+  .css{
+    float: right;
+    /*width: 5%;*/
+    border: thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+   }
+
 section#sobre>h2{
   font-size: 3em;
   color: rgb(216, 230, 214);
@@ -131,25 +139,24 @@ section#falecomigo p{
 section#falecomigo>h2{
   text-align: center;
 }
+
 .face{   
   position: relative;
   left: 200px;
   bottom: 65px;
 }
+
 .insta{   
   position: relative;
   left: 270px;
   bottom: 105px;
 }
 
-
-
 section#falecomigo ul#insta{
   padding-bottom: 170px;
 }
 
-
-  footer#rodape p{ 
+footer#rodape p{ 
     text-align: center;  
-  }
+}
 
