@@ -86,14 +86,12 @@ section#sobre>h2{
   }
 
   figure.figura1, figure.figura2{
-    position: relative;
-    /*border: 2px solid black;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);*/
+    position: relative;   
   }
 
   figure.figura1 img, figure.figura2 img{
-    width: 450px;
-    height: 400px;
+    width: 400px;
+    height: 350px;
     float: left;
   } 
 

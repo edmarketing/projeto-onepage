@@ -103,6 +103,58 @@ section#portfolio{
    margin: 0 auto;    
 }
 
+.centro{
+    text-align: center;
+}
+
+.centro>h2{   
+    font-size: 40px;
+}
+
+.centro>h3{
+    padding-top: 2px;
+    font-size: 20px;
+}
+
+figure.figura1, figure.figura2{
+    position: relative;    
+  }
+
+figure.figura1 img, figure.figura2 img{
+    width: 450px;
+    height: 400px;
+    float: left;
+} 
+
+figure.figura1 figcaption{  
+    position: absolute;
+    top: 0px;  
+    color: rgb(123, 137, 216);
+    width: 110%;
+    height: 100%;
+    padding: 5px;
+    padding-left: 25px;
+    box-sizing: border-box;    
+}
+  
+figure.figura2 figcaption{  
+    position: absolute;
+    top: 0px;  
+    color: red;
+    width: 120%;
+    height: 100%;
+    text-align: center ;
+    box-sizing: border-box;    
+}
+
+.css-portfolio{
+    float: right;
+    border: thin solid;
+    font-size: 1em;
+    padding: 5px;
+   /* margin: 0px 10px 10px 0;*/
+    text-align: right;
+}
 
 section#localizacao{ 
     width: 1150px;
@@ -111,12 +163,50 @@ section#localizacao{
    margin: 0 auto;    
 }
 
+section#localizacao h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
 section#falecomigo{ 
     width: 1150px;
     height: 740px;
     border: 3px solid #f00;
    margin: 0 auto;    
 }
+
+section#falecomigo p{
+    font-weight: bold;
+}
+
+.email{   
+   position: relative;
+   left: 300px;
+   bottom: 65px;
+}
+
+section#falecomigo>h2{
+  text-align: center;
+}
+
+.face{   
+  position: relative;
+  left: 200px;
+  bottom: 65px;
+}
+
+.insta{   
+  position: relative;
+  left: 270px;
+  bottom: 105px;
+}
+
+section#falecomigo ul#insta{
+  padding-bottom: 170px;
+}
+
+
+
 
 footer#rodape p{ 
     text-align: center;  
