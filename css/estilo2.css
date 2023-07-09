@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(209, 229, 178);
+    font-family: "Open Sans";
+    padding: 0;
+    margin: 0;
+}
+
+div#interface{
+    width: 1150px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10pt;
+}
+
+
+section#home { 
+    width: 1150px;
+    height: 720px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+nav{
+    padding: 2px 2px 0 2px;
+    font-size: 20px; 
+    background-color:  #050A28;
+    word-spacing: 20px;
+    text-align: right; 
+}
+
+nav a{
+    color:white; 
+    padding-right: 5px;   
+}
+
+ nav a:hover{
+    color: red;
+}
+
+section#sobre { 
+    width: 1150px;
+    height: 740px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+section#sobre>h2{
+    font-size: 2.5em;
+    color: rgb(216, 230, 214);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
+}
+
+div#texto{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+section#sobre>a{
+    font-size: 1.3em;
+}
+
+.css{
+    float: right;
+    border: thin solid;
+    font-size: 1em;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
+
+section#servico{ 
+    width: 1150px;
+    height: 740px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+section#servico>h2{
+    font-size: 2.5em;
+    color: rgb(216, 230, 214);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
+  }
+
+div#serv>h3{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+div#serv>p{
+    font-size: 20px;   
+    padding-left: 30px;
+}
+
+section#portfolio{ 
+    width: 1150px;
+    height: 740px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+
+section#localizacao{ 
+    width: 1150px;
+    height: 740px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+section#falecomigo{ 
+    width: 1150px;
+    height: 740px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+footer#rodape p{ 
+    text-align: center;  
+}
+
