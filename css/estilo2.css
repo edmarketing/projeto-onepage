@@ -91,7 +91,7 @@ div#serv>h3{
     padding-left: 10px;
 }
 
-div#serv>p{
+div#serv>p{fo
     font-size: 20px;   
     padding-left: 30px;
 }
@@ -103,27 +103,30 @@ section#portfolio{
    margin: 0 auto;    
 }
 
-.centro{
+.centro>h2{   
+    font-size: 2.5em;
+    color: rgb(216, 230, 214);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
     text-align: center;
 }
 
-.centro>h2{   
-    font-size: 40px;
-}
-
 .centro>h3{
+    text-align: center;
     padding-top: 2px;
     font-size: 20px;
 }
 
 figure.figura1, figure.figura2{
-    position: relative;    
+    position: relative;  
+    padding-left: 90px;  
   }
 
 figure.figura1 img, figure.figura2 img{
     width: 450px;
     height: 400px;
     float: left;
+    padding-bottom: 30px;
 } 
 
 figure.figura1 figcaption{  
@@ -152,8 +155,8 @@ figure.figura2 figcaption{
     border: thin solid;
     font-size: 1em;
     padding: 5px;
-   /* margin: 0px 10px 10px 0;*/
-    text-align: right;
+    margin: 0px 10px 10px 0;
+    text-align: right;    
 }
 
 section#localizacao{ 
@@ -165,8 +168,10 @@ section#localizacao{
 
 section#localizacao h3{
     text-align: center;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 2em;
+    color: rgb(216, 230, 214);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+}
 
 section#falecomigo{ 
     width: 1150px;
@@ -175,40 +180,43 @@ section#falecomigo{
    margin: 0 auto;    
 }
 
-section#falecomigo p{
-    font-weight: bold;
+section#falecomigo>h2{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(216, 230, 214);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+}
+   
+section#falecomigo>h4{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight:bolder;
+    left: 20px;   
+}
+
+.fone{
+    position: relative;
+    left: 250px;
 }
 
 .email{   
    position: relative;
-   left: 300px;
+   left: 650px;
    bottom: 65px;
+
 }
 
-section#falecomigo>h2{
-  text-align: center;
+div#rede-social{ 
+  position: relative;    
+  width: 200px;
+  padding-left: 20px;
+    
+  
 }
 
-.face{   
-  position: relative;
-  left: 200px;
-  bottom: 65px;
-}
-
-.insta{   
-  position: relative;
-  left: 270px;
-  bottom: 105px;
-}
-
-section#falecomigo ul#insta{
-  padding-bottom: 170px;
-}
-
-
-
-
-footer#rodape p{ 
+.rodape{
+    font-size: 20px;
+    font-weight: bold; 
     text-align: center;  
 }
 
