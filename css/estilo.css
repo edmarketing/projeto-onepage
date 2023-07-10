@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(209, 229, 178);
+    font-family: "Open Sans";
+    padding: 0;
+    margin: 0;
+}
+
+div#interface{
+    width: 1150px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10pt;
+}
+
+
+section#home { 
+    width: 1150px;
+    height: 720px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+nav{
+    padding: 2px 2px 0 2px;
+    font-size: 20px; 
+    background-color:  #050A28;
+    word-spacing: 20px;
+    text-align: right; 
+}
+
+nav a{
+    color:white; 
+    padding-right: 5px;   
+}
+
+ nav a:hover{
+    color: red;
+}
+
+section#sobre { 
+    width: 1150px;
+    height: 740px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+section#sobre>h2{
+    font-size: 2.5em;
+    color: rgb(216, 230, 214);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
+}
+
+div#texto{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+section#sobre>a{
+    font-size: 1.3em;
+}
+
+.css{
+    float: right;
+    border: thin solid;
+    font-size: 1em;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
+
+section#servico{ 
+    width: 1150px;
+    height: 740px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+section#servico>h2{
+    font-size: 2.5em;
+    color: rgb(216, 230, 214);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
+  }
+
+div#serv>h3{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+div#serv>p{fo
+    font-size: 20px;   
+    padding-left: 30px;
+}
+
+section#portfolio{ 
+    width: 1150px;
+    height: 740px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+.centro>h2{   
+    font-size: 2.5em;
+    color: rgb(216, 230, 214);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+    padding-left: 10px;
+    text-align: center;
+}
+
+.centro>h3{
+    text-align: center;
+    padding-top: 2px;
+    font-size: 20px;
+}
+
+figure.figura1, figure.figura2{
+    position: relative;  
+    padding-left: 90px;  
+  }
+
+figure.figura1 img, figure.figura2 img{
+    width: 450px;
+    height: 400px;
+    float: left;
+    padding-bottom: 30px;
+} 
+
+figure.figura1 figcaption{  
+    position: absolute;
+    top: 0px;  
+    color: rgb(123, 137, 216);
+    width: 110%;
+    height: 100%;
+    padding: 5px;
+    padding-left: 25px;
+    box-sizing: border-box;    
+}
+  
+figure.figura2 figcaption{  
+    position: absolute;
+    top: 0px;  
+    color: red;
+    width: 120%;
+    height: 100%;
+    text-align: center ;
+    box-sizing: border-box;    
+}
+
+.css-portfolio{
+    float: right;
+    border: thin solid;
+    font-size: 1em;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    text-align: right;    
+}
+
+section#localizacao{ 
+    width: 1150px;
+    height: 740px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+section#localizacao h3{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(216, 230, 214);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+}
+
+section#falecomigo{ 
+    width: 1150px;
+    height: 740px;
+    border: 3px solid #f00;
+   margin: 0 auto;    
+}
+
+section#falecomigo>h2{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(216, 230, 214);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+}
+   
+section#falecomigo>h4{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight:bolder;
+    left: 20px;   
+}
+
+.fone{
+    position: relative;
+    left: 250px;
+}
+
+.email{   
+   position: relative;
+   left: 650px;
+   bottom: 65px;
+
+}
+
+div#rede-social{ 
+  position: relative;    
+  width: 200px;
+  padding-left: 20px;
+    
+  
+}
+
+.rodape{
+    font-size: 20px;
+    font-weight: bold; 
+    text-align: center;  
+}
+
